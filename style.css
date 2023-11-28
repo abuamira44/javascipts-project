@@ -1,0 +1,76 @@
+css
+/* Reset default browser styles */
+body,
+h1,
+h2,
+ul,
+li,
+p,
+input,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header style */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Section style */
+section {
+  padding: 50px;
+}
+
+section h1,
+section h2 {
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style: disc;
+  margin-bottom: 20px;
+}
+
+/* Contact form style */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #666;
+}
